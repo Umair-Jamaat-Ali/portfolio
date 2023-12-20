@@ -9,7 +9,7 @@ export default function Services() {
     <>
     <section id="services">
         <div class="secText">
-            <h2>What I Am Great At</h2>
+            <h3>What I Am Great At</h3>
             <p>Lorem ipsum dolor sit, amet consectetur 
             adipisicing elit. Repellendus, fuga eaque 
             libero ad praesentium minus provident quam 
@@ -37,7 +37,7 @@ export default function Services() {
             </div>
         </div>
         <div class="center">
-            <a href="https://github.com/MuzaffarGujjar" class="btn">Hire Me</a>
+            <a href="https://github.com/Umair-Jamaat-Ali" class="btn" style={{width:"500px"}}>Check My Work</a>
         </div>
     </section>
     </>

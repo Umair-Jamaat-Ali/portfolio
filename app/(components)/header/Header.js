@@ -10,8 +10,9 @@ export default function Header() {
     
         <NavBar/>
     <section id="home">
+    
         <div className="content" >
-            <h2> Hi, I am Umair Jamaat Ali</h2>
+        <h2> Hi, I am Umair Jamaat Ali</h2>
             <p>Lorem ipsum dolor sit amet consectetur 
             adipisicing elit. Itaque voluptatibus 
             amet exercitationem. Eos quam eum beatae 
