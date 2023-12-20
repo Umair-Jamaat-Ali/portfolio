@@ -9,7 +9,9 @@ export default function Home() {
    <div>
     <Header/>
     <Services/>
+    
    </div>
+   
    </>
   )
 }

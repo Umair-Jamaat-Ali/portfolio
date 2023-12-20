@@ -1,6 +1,8 @@
 import Image from 'next/image'
 import React from 'react'
-import icon1 from '../../../public/assets/icon1.png'
+import icon1 from '../../../public/assets/icon1.jpg'
+import icon2 from '../../../public/assets/icon2.webp'
+import icon3 from '../../../public/assets/icon3.jpg'
 
 export default function Services() {
   return (
@@ -16,17 +18,21 @@ export default function Services() {
         </div>
         <div class="content">
             <div class="servicesBx">
-            <Image src={icon1} width={500}
-      height={500}
-      alt="Picture web deveploment" />
+            <Image src={icon1} width={1000}
+      height={900}
+      alt="Picture web designing" />
                 <h3>Website Designig</h3>
             </div>
             <div class="servicesBx">
-            <Image  />
+            <Image src={icon2} width={1000}
+      height={900}
+      alt="Picture web deveploment" />
                 <h3>Website Development</h3>
             </div>
             <div class="servicesBx">
-                <Image  />
+                <Image  src={icon3} width={1000}
+      height={900}
+      alt="Picture app deveploment" />
                 <h3>Android Development</h3>
             </div>
         </div>

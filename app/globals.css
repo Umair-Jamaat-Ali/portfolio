@@ -59,7 +59,7 @@ header ul li:hover a {
 #home {
     position: relative;
     width: 100%;
-    min-height: 70vh;
+    min-height: 100vh;
     background: #222;
     display: flex;
     justify-content: space-between;
@@ -192,7 +192,7 @@ header ul li:hover a {
 }
 
 #services .content .servicesBx img {
-    max-width: 100px;
+    /* max-width: 100px; */
     filter: invert(1);
     opacity: 0.5;
     transition: 0.5s;

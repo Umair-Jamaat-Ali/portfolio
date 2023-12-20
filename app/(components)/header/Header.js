@@ -1,16 +1,17 @@
 import Image from 'next/image'
 import NavBar from '../navBar/NavBar'
 import mainImage from '../../../public/assets/1.png'
-// import './style.css'
+import './style.css'
 
 export default function Header() {
+  
   return (
     <>
     
         <NavBar/>
     <section id="home">
-        <div className="content">
-            <h2>Umair Jamaat Ali</h2>
+        <div className="content" >
+            <h2> Hi, I am Umair Jamaat Ali</h2>
             <p>Lorem ipsum dolor sit amet consectetur 
             adipisicing elit. Itaque voluptatibus 
             amet exercitationem. Eos quam eum beatae 
