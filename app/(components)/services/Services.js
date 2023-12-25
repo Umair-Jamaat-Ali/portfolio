@@ -10,11 +10,7 @@ export default function Services() {
     <section id="services">
         <div class="secText">
             <h3>What I Am Great At</h3>
-            <p>Lorem ipsum dolor sit, amet consectetur 
-            adipisicing elit. Repellendus, fuga eaque 
-            libero ad praesentium minus provident quam 
-            voluptate modi ab blanditiis vero aliquid, 
-            qui vitae.</p>
+            <p>HTML 5, CSS 3, Bootstrap, Tailwind CSS, Responsive Web Design, JavaScript Programming, React JS, Next JS, Firebase DB, Mongo DB</p>
         </div>
         <div class="content">
             <div class="servicesBx">
@@ -37,7 +33,7 @@ export default function Services() {
             </div>
         </div>
         <div class="center">
-            <a href="https://github.com/Umair-Jamaat-Ali" class="btn" style={{width:"500px"}}>Check My Work</a>
+            <a href="https://github.com/Umair-Jamaat-Ali" class="btn" style={{width:"500px", height:"90px"}}>Check My Work</a>
         </div>
     </section>
     </>

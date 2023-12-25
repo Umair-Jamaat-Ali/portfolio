@@ -9,9 +9,9 @@ export default function NavBar() {
         <Link href="#" className="logo">Portfolio</Link>
         <div className="menutoggle"></div>
         <ul className="nav">
-            <li className="active"><a href="#home">Home</a></li>
+            <li className="active"><Link href="#home">Home</Link></li>
             <li><Link href="#services">Services</Link></li>
-            <li><Link href="#portfolio">Portfolio</Link></li>
+            {/* <li><Link href="https://vercel.com/umair-jamaat-ali/portfolio">Portfolio</Link></li> */}
             <li><Link href="#contact">Contact</Link></li>
         </ul>
     </header>
