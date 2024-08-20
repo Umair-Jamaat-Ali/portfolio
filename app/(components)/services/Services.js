@@ -3,15 +3,21 @@ import React from 'react'
 import icon1 from '../../../public/assets/icon1.jpg'
 import icon2 from '../../../public/assets/icon2.webp'
 import icon3 from '../../../public/assets/icon3.jpg'
+import TopArrowButton from '../topArrowButton/TopArrowbutton'
+
 
 export default function Services() {
+
+   
+
   return (
     <>
     <section id="services">
-        <div class="secText">
-            <h3>What I Am Great At</h3>
-            <p>HTML 5, CSS 3, Bootstrap, Tailwind CSS, Responsive Web Design, JavaScript Programming, React JS, Next JS, Firebase DB, Mongo DB</p>
-        </div>
+    <div className="secText">
+        <TopArrowButton />
+        <h3>What I Am Great At</h3>
+        <p>HTML 5, CSS 3, Bootstrap, Tailwind CSS, Responsive Web Design, JavaScript Programming, React JS, Next JS, Firebase DB, Mongo DB</p>
+      </div>
         <div class="content">
             <div class="servicesBx">
             <Image src={icon1} width={1000}
@@ -36,6 +42,7 @@ export default function Services() {
             <a href="https://github.com/Umair-Jamaat-Ali" class="btn" style={{width:"500px", height:"90px"}}>Check My Work</a>
         </div>
     </section>
+    
     </>
   )
 }

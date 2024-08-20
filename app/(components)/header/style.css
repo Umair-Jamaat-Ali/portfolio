@@ -1,21 +1,27 @@
-h2  {
-        font-family: Arial, sans-serif;
-        font-size: 24px;
-        white-space: nowrap; /* Prevent line breaks */
-        overflow: hidden; /* Hide overflowed content */
-        border-right: 2px solid #566e12; /* Simulate cursor */
-        animation: typing 15s steps(35, end) infinite; /* Adjust the duration and steps based on your preference */
-      }
-      
-      @keyframes typing {
-        0% {
-          width: 0;
-        }
-        50% {
-          width: 100%;
-        }
-        100% {
-            width: 0;
-          }
-      }
-      
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 3vw; /* Use viewport width for relative font size */
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid #566e12;
+  animation: typing 15s steps(35, end) infinite;
+}
+
+@keyframes typing {
+  0% {
+    width: 0;
+  }
+  50% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  h2 {
+    font-size: 3vw;
+  }
+}

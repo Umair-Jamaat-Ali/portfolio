@@ -10,9 +10,9 @@ export default function Header() {
 
       <NavBar />
       <section id="home">
-
         <div className="content" >
-          <h2> Hi, I am Umair Jamat Ali !</h2>
+          <h2> Hi, I am Umair Jamaat Ali!</h2>
+          <h3 className='text-white font-bold text-5xl '>Frontend & Backend Developer</h3>
           <p> Welcome to our digital domain, where innovation meets creativity.</p>
           <a href="#contact" className="btn">Contact Me</a>
         </div>

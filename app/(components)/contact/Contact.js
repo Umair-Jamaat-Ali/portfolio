@@ -1,12 +1,16 @@
 import Link from "next/link"
+import { IoLogoWhatsapp } from "react-icons/io";
+import { FaMobileButton } from "react-icons/fa6";
 
 import React from 'react'
+import TopArrowButton from "../topArrowButton/TopArrowbutton"
 
 export default function Contact() {
   return (
     <>
     <section id="contact">
         <div class="secText">
+            <TopArrowButton/>
             <h3>Ways To Contact Me</h3>
            
         </div>
@@ -16,11 +20,11 @@ export default function Contact() {
                 umairansari758@gmail.com
             </Link>
             <Link href="#">
-                <ion-icon name="call-outline"></ion-icon>
-                +92 345 071 2423
+                <FaMobileButton/>
+                 +92 345 071 2423
             </Link>
             <Link href="#">
-                <ion-icon name="logo-whatsapp"></ion-icon>
+                <IoLogoWhatsapp/>
                 Whatsapp
             </Link>
         </div>

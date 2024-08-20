@@ -44,14 +44,16 @@ header ul li {
     list-style: none;
 }
 
-header ul li Link {
+header ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: 500;
     font-size: 1.25em;
 }
 
-header ul li.active a,
+header ul li.active a{
+    color: #f3f723;
+}
 header ul li:hover a {
     color: #30fe6c;
 }
@@ -65,6 +67,9 @@ header ul li:hover a {
     justify-content: space-between;
     align-items: center;
     padding: 100px;
+    background-image: url(../public/assets/4.jpg);
+    background-repeat: no-repeat;
+    
 }
 
 #home::before{
